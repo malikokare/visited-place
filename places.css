@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  color: blue;
+  margin: 5px 0;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+#place-details {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+#place-details h2 {
+  margin-top: 0;
+}
