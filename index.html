@@ -2,54 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Places You've Been</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <title>Places I've Visited</title>
+  <link rel="stylesheet" href="./places.css">
 </head>
 <body>
 
-  <h1>Places I've Been</h1>
+  <h1>Places I've Visited</h1>
 
+  <form id="place-form">
+    <input type="text" id="location" placeholder="Location" required>
+    <input type="text" id="landmarks" placeholder="Landmarks" required>
+    <input type="text" id="season" placeholder="Best Time of Year" required>
+    <textarea id="notes" placeholder="Notes"></textarea>
+    <button type="submit">Add Place</button>
+  </form>
+
+  <h2>My Places</h2>
   <ul id="place-list"></ul>
 
-  <div id="place-details">
-    <h2>Place Details</h2>
-    <p id="details"></p>
-  </div>
+  <h2>Place Details</h2>
+  <div id="place-details"></div>
 
-  <script src="js/place.js"></script>
-  <script>
-    // UI Logic
-
-    let places = [];
-
-    places.push(new Place(
-      "Nairobi",
-      "National Park",
-      "Dry",
-      "Capital city of Kenya"
-    ));
-
-    places.push(new Place(
-      "Mombasa",
-      "Beach",
-      "Hot",
-      "Amazing ocean views"
-    ));
-
-    const placeList = document.getElementById("place-list");
-    const details = document.getElementById("details");
-
-    places.forEach(function (place, index) {
-      let li = document.createElement("li");
-      li.textContent = place.location;
-
-      li.addEventListener("click", function () {
-        details.textContent = place.getDetails();
-      });
-
-      placeList.appendChild(li);
-    });
-  </script>
-
+  <script src="./places.js"></script>
 </body>
 </html>
