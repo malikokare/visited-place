@@ -34,3 +34,4 @@ Expected Output:
  Landmarks: National Park
  Best Season: Dry
  Notes: Beautiful city"
+# visited-place
