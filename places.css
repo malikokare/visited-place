@@ -37,14 +37,14 @@ nav ul li a:hover{
   color: #600c0c;
 }
 
-.home h2{
+section.home h2{
   color: aqua;
   font-size: 28px;
   margin-top: 50px;
   text-align: center;
   font-style: italic;
 }
-.home p{
+section.home p{
   color: #600c0c3f;
   font-size: 18px;
   margin-top: 20px;
