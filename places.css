@@ -52,4 +52,15 @@ section#home p{
   text-align: center;
   margin: 20px;
 }
-sectio
+section#about h2{
+  color: #600c0c3f;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 40px;
+}
+section#about p{
+  color: #600c0c3f;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px;
+}
