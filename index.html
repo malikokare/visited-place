@@ -2,27 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Places I've Visited</title>
-  <link rel="stylesheet" href="./places.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MALIKO KARE | VISITED PLACES</title>
+  <link rel="stylesheet" href="places.css">
 </head>
 <body>
+  <header>
+    <h1>MALIKO KARE</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#places">Visited Places</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h1>Places I've Visited</h1>
+  <section id="home">
+    <h2>Welcome to My Travel Blog</h2>
+    <p>Join me as I explore the world and share my experiences from the places I've visited.</p>
+  </section>
 
-  <form id="place-form">
-    <input type="text" id="location" placeholder="Location" required>
-    <input type="text" id="landmarks" placeholder="Landmarks" required>
-    <input type="text" id="season" placeholder="Best Time of Year" required>
-    <textarea id="notes" placeholder="Notes"></textarea>
-    <button type="submit">Add Place</button>
-  </form>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Maliko Kare, a passionate traveler and adventurer. I love discovering new cultures, cuisines, and landscapes. Follow my journey as I document my travels around the globe.</p>
+  </section>
 
-  <h2>My Places</h2>
-  <ul id="place-list"></ul>
+  <section id="places">
+    <h2>Visited Places</h2>
+    <ul>
+      <li>Paris, France - The city of love and lights.</li>
+      <li>Tokyo, Japan - A blend of tradition and modernity.</li>
+      <li>Cape Town, South Africa - Stunning landscapes and vibrant culture.</li>
+      <!-- Add more places as needed -->
+    </ul>
 
-  <h2>Place Details</h2>
-  <div id="place-details"></div>
+    <div class="gallery">
+      <figure class="card">
+        <img src="images/Paris sob a luz da lua 🌕.jpg" alt="paris sob a luz da lua .jpg">
+        <figcaption>Paris, France</figcaption>
 
-  <script src="./places.js"></script>
+      </figure>
+      <figure class="card">
+        <img src="images/by theSQUID 🍟.jpg" alt=" the SQUID .jpg">
+        <figcaption>Tokyo, Japan</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="images/Instagram.jpg" alt="instagram .jpg">
+        <figcaption>Cape Town, South Africa</figcaption>
+      </figure>
+
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch or follow my adventures, feel free to reach out!</p>
+    <!-- Contact details or form can be added here -->
+  </section>
+  <footer>
+    <p>&copy; 2024 Maliko Kare. All rights reserved.</p>
+  
 </body>
 </html>
