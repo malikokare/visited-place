@@ -36,20 +36,20 @@ nav ul li a{
 nav ul li a:hover{
   color: #600c0c;
 }
-
-section.home h2{
-  color: aqua;
-  font-size: 28px;
-  margin-top: 50px;
+section#home h2{
+  color: #600c0c3f;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
   text-align: center;
-  font-style: italic;
 }
-section.home p{
+section#home p{
   color: #600c0c3f;
   font-size: 18px;
-  margin-top: 20px;
   text-align: center;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px;
 }
+sectio
