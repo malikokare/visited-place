@@ -64,3 +64,104 @@ section#about p{
   text-align: center;
   margin: 20px;
 }
+section#places h2{
+  color: #600c0c3f;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 40px;
+}
+section#places .place-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+.gallery{
+  display: flex;
+  gap: 1rem;
+  max-width: 80rem;
+}
+.card{
+  position: relative;
+  left: 0;
+  width: 4rem;
+  border-radius: 1,2rem;
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--bg);
+  transition: 0.4s ease-in-out;
+  box-shadow: 0.5px 12px #0000004d;
+  flex: 0.25;
+}
+.card img{
+  position: relative;
+  height: 20rem;
+  object-fit: cover;
+}
+.card:hover{
+  flex: 2;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.card:nth-child(1)img{
+  left: -8rem;
+}
+.card:nth-child(2)img{
+  left: -6rem;
+}
+.card:nth-child(3)img{
+  left: -14rem;
+}
+
+section#contact h2{
+  color: #600c0c3f;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 40px;
+}
+section#contact p{
+  color: #600c0c3f;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #600c0c3f;
+  color: #fff;
+}
+section#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+input, textarea{
+  padding: 10px;
+  border: 1px solid #600c0c3f;
+  border-radius: 5px;
+  box-shadow: #600c0c3f 0px 1px 2px;
+  
+}
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #600c0c3f;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #600c0c;
+}
+
+
